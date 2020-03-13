@@ -1,0 +1,93 @@
+nav{
+    background-color: #000;
+    padding: 0.05em;
+    margin:0;
+    
+}
+
+nav ul {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between; 
+    font-size: x-large; 
+    list-style-type: none;
+    margin-left: 2%;
+    margin-right: 2%;
+  
+}
+.navitem a{
+    text-decoration: none;
+    color:#FFF;
+}
+.navitem a:hover{
+    text-decoration: none;
+    border-bottom: 5px solid #FFF;
+    color:#FFF;
+}
+.navbrand{
+    width: 2em;
+    height: 2em;
+}
+
+.navbrand:hover{
+   transform: scale(1.1);
+}
+
+header div {
+    text-align: center;
+}
+
+header div{
+    display: flex; justify-content: center; align-items: center; background-image: url(src/img/team_rocket.png); background-position: center; background-size: cover; color: #FFFF; height: 50vh; width:100%; font-size: 3rem; margin: 0;
+    flex-direction: column;
+    animation-name: headerSlideShow;
+    animation-duration: 10s;
+    animation-direction: normal;
+    animation-iteration-count: infinite ;
+    animation-timing-function: ease-in-out;
+    text-shadow: 0px 5px 9px rgba(0,0,0,0.6);
+}
+section {
+    text-align: center; padding:4%;
+    font-family: 'Nunito', sans-serif;
+}
+footer{
+    display: flex; align-items: center; justify-content: space-around;
+}
+
+hr{
+    display:none;
+}
+
+.btn-success{
+    background-color: #55B354;
+    border-radius: 1em;
+    font-size: 2rem;
+    color:#FFF;
+    border: 1px solid #000;
+    padding:1rem
+
+    
+}
+
+.btn-success:hover{
+    background-color: rgb(71, 151, 69);
+
+}
+
+
+@keyframes headerSlideShow{
+ 
+    25%{
+        background-image: url(src/img/teamrocket1.jpg);
+
+    }
+    50%{
+
+        background-image: url(src/img/teamrocket2.jpg);
+    }
+    75%{
+        background-image: url(src/img/team_rocket.png);
+    }
+}

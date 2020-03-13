@@ -1,0 +1,178 @@
+/* GLOBAL */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,600,700&display=swap');
+html, body {
+    margin: 0px; padding: 0px;
+    font-family: 'Dancing Script', cursive;
+    background-color: #ecf0f1;
+    background-image: url('/src/img/BG.jpg');
+    font-weight: bold;
+}
+.inner {
+    /* display: flex; */
+    width: 100%;
+}
+/* GLOBAL */
+
+/* MENU */
+/* HEADER */
+
+.menu {
+    width: 100%;
+    height: 66px;
+    background-color: #bdc3c7a8;
+    line-height: 66px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#logo {
+    /* margin: 0px; padding: 0px; */
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+#logo:hover {
+    font-size: 60px;
+}
+
+.menu-right {
+    text-align: center;
+}
+.menu-right a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px 10px;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+.menu-right a:hover {
+    padding-top: -100px;
+    margin-top: 8px;
+    border-color: white;
+    font-size: 30px;
+}
+
+.menu-right i {
+    margin-right: 10px;
+}
+
+#profil {
+    float: right;
+    margin-bottom: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 7px 1px black;
+}
+
+/* ADDRESS */
+address {
+    font-size: large;
+    margin-top: 50px;
+}
+/* ADDRESS */
+/* HEADER */
+/* MENU */
+
+/* BODY */
+#all {
+    margin-top: 100px;
+}
+#center {
+    margin: 0px auto 0px auto;
+    width: 850px;
+}
+
+p {
+    font-size: 28px;
+}
+
+.indentation-x2 {
+    margin-left: 50px;
+}
+
+.text p {
+    margin-left: 100px;
+}
+
+.text strong {
+    margin-left: -50px;
+}
+
+.text h3 {
+    margin-left: 100px;
+}
+h3 {
+    font-size: 28px;
+    font-weight: 900;
+}
+hr {
+    height: 2px;
+    background-color: black;
+}
+
+
+/* BODY */
+
+/* FOOTER */
+#CONTACT {
+    font-size: 40px;
+}
+/* FORM */
+
+form div + div {
+    margin-top: 1em;
+}
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+    font-size: 20px;
+}
+input, textarea {
+    width: 300px;
+}
+input:focus, textarea:focus {
+    border-color: #000;
+  }
+textarea {
+    vertical-align: top;
+    height: 10em;
+  }
+  .button {
+    padding-left: 265px; 
+  }
+
+/* FORM */
+/* JUMP */
+#jump-top i{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background: #000000d2;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    font-size: 32px;
+    border-radius: 15px;
+}
+#logo img:hover {
+    width: 140px;
+}
+/* JUMP */
+/* FOOTER */
